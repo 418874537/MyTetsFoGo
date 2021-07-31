@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-/*
+/**
 20. 有效的括号
 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串 s ，判断字符串是否有效。
 
@@ -39,6 +39,7 @@ import "fmt"
 1 <= s.length <= 104
 s 仅由括号 '()[]{}' 组成
 */
+
 func isValid(s string) bool {
 	bracket := []byte{}
 	if len(s) == 1 {
