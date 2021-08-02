@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	_ "github.com/418874537/MyTetsFoGo"
+	hello "github.com/418874537/MyTetsFoGo"
 )
 
 func main() {
-	
-	fmt.Println()
+	hello := hello.SayHello()
+	fmt.Println(hello)
 }

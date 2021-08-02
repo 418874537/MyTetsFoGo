@@ -40,7 +40,7 @@ import "fmt"
 s 仅由括号 '()[]{}' 组成
 */
 
-func isValid(s string) bool {
+func IsValid(s string) bool {
 	bracket := []byte{}
 	if len(s) == 1 {
 		return false
