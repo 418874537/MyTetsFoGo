@@ -20,7 +20,7 @@ func main() {
 
 	fmt.Println(getStringNode(getIntersectionNode(l1, l2)))
 
-	fmt.Println(getStringNode(reverseNode(nil)))
+	fmt.Println(getStringNode(reverseNode(l1)))
 }
 
 func getStringNode(l *ListNode) string {
