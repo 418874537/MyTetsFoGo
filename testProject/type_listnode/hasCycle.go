@@ -1,4 +1,4 @@
-package main
+package type_listnode
 
 /*
 141. 环形链表
@@ -24,7 +24,7 @@ package main
 -105 <= Node.val <= 105
 pos 为 -1 或者链表中的一个 有效索引 。
 */
-func hasCycle(head *ListNode) bool {
+func HasCycle(head *ListNode) bool {
 	linkMap := map[*ListNode]struct{}{}
 	for head != nil {
 		if _, ok := linkMap[head]; ok {

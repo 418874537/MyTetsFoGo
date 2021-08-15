@@ -1,4 +1,4 @@
-package main
+package type_strings
 
 /*
 14. 最长公共前缀

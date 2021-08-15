@@ -1,4 +1,4 @@
-package main
+package type_listnode
 
 /*
 160. 相交链表
@@ -50,7 +50,7 @@ listB 中节点数目为 n
 
 进阶：你能否设计一个时间复杂度 O(n) 、仅用 O(1) 内存的解决方案？
 */
-func getIntersectionNode(headA, headB *ListNode) *ListNode {
+func GetIntersectionNode(headA, headB *ListNode) *ListNode {
 	mapA := map[*ListNode]struct{}{}
 	for headA != nil {
 		mapA[headA] = struct{}{}

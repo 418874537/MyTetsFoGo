@@ -1,4 +1,4 @@
-package main
+package type_listnode
 
 /*
 21. 合并两个有序链表
@@ -17,12 +17,8 @@ package main
 -100 <= Node.val <= 100
 l1 和 l2 均按 非递减顺序 排列
 */
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
 
-func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+func MergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	if l1 == nil {
 		return l2
 	}

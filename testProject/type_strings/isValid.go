@@ -1,4 +1,4 @@
-package ssss
+package type_strings
 
 import "fmt"
 

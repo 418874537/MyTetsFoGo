@@ -1,4 +1,4 @@
-package main
+package type_number
 
 func TwoSum(nums []int, target int) []int {
 	testmap := map[int]int{}

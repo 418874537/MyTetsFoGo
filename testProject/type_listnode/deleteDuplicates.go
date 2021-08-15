@@ -1,4 +1,4 @@
-package main
+package type_listnode
 
 /*
 83. 删除排序链表中的重复元素

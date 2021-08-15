@@ -1,4 +1,4 @@
-package main
+package type_number
 
 import (
 	"math"
